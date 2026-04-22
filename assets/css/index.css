@@ -4,4 +4,6 @@
 @import './base.css';
 @import './blocks/header.css';
 @import './blocks/hero.css';
-@import 'blocks/hero.css';
+@import './blocks/hero.css';
+@import './blocks/artifacts.css';
+@import './blocks/new-artifacts.css';

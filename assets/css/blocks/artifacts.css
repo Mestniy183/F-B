@@ -1,0 +1,111 @@
+.swiper-slide {
+    height: auto;
+}
+
+.swiper {
+    margin-bottom: 26px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: static;
+    width: 25px;
+    height: 20px;
+    display: block;
+    margin-top: 0;
+}
+
+.swiper-pagination {
+    position: static;
+    width: auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--white);
+    font-family: var(--second-family);
+}
+
+.artifacts {
+    background-color: var(--background);
+    padding: 60px 0;
+}
+
+.artifacts__items {
+    display: flex;
+}
+
+.artifacts__item {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--background-shade);
+}
+
+.artifacts__item-box {
+    background: var(--background-shade);
+    position: relative;
+    padding: 30px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artifacts__number {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--grey);
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    font-family: var(--second-family);
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.artifacts__img {}
+
+.artifacts__content {
+    padding: 16px 16px 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.artifacts__item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--white);
+    margin-bottom: 8px;
+    font-family: var(--second-family);
+}
+
+.artifacts__item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--grey);
+    margin-bottom: 16px;
+}
+
+.artifacts__item-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--primary-green);
+    border: 1px solid var(--primary-green);
+    padding: 10px 27px;
+    margin-top: auto;
+}
+
+.artifacts__controlls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

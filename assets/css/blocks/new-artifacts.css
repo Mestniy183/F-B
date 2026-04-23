@@ -1,6 +1,7 @@
 .new-artifacts {
     background-color: var(--background);
     padding-top: 57px;
+    padding-bottom: 60px;
 }
 
 .new-artifact__wrapper {

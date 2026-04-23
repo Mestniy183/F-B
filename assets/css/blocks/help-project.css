@@ -1,0 +1,56 @@
+.help-project {
+    background-image: url('../../images/help-project/help-project.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.help-project__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.help-project__title {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: var(--white);
+    font-family: var(--second-family);
+    margin-bottom: 16px;
+    
+}
+
+.help-project__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--white);
+    font-family: var(--font-family);
+    margin-bottom: 24px;
+}
+
+.help-project__form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 350px;
+    align-items: flex-start;
+}
+
+.help-project__input {
+    padding: 10.5px 16px;
+    background: var(--white);
+    width: 100%;
+    border: none;
+}
+
+.help-project__btn {
+    padding: 12px 26px;
+    background: var(--primary-green);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--background-shade);
+    font-family: var(--font-family);
+}

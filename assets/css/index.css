@@ -7,4 +7,5 @@
 @import './blocks/hero.css';
 @import './blocks/artifacts.css';
 @import './blocks/new-artifacts.css';
-@import 'blocks/help-project.css';
+@import './blocks/help-project.css';
+@import './blocks/footer.css';

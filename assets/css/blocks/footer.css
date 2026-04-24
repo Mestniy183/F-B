@@ -1,0 +1,33 @@
+.footer {
+    background: var(--background-shade);
+}
+
+.footer__wrapper {
+    padding: 18px 0 3px;
+    
+}
+
+.footer__items {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.footer__item {}
+
+.footer__img {}
+
+.footer__bottom {
+    background-color: #1D2F30;
+    padding: 3px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--grey);
+    
+}

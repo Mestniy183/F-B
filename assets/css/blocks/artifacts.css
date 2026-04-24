@@ -103,9 +103,39 @@
     margin-top: auto;
 }
 
+.artifacts__item-btn:focus-visible {
+    outline: 1px solid var(--green-focus);
+    outline-offset: 3px;
+}
+
+.artifacts__item-btn:hover {
+    background: var(--primary-green);
+    color: var(--background-shade);
+}
+
+.artifacts__item-btn:active {
+    background: var(--green-activeclick);
+    color: var(--background-shade);
+}
+
+
+
 .artifacts__controlls {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
+
+.swiper-btn:focus-visible {
+    outline:  1px solid var(--green-focus);
+    outline-offset: 3px;
+}
+
+.swiper-btn:hover path {
+fill:var(--primary-green);
+}
+
+.swiper-btn:active path {
+    fill:var(--green-activeclick);
+    }

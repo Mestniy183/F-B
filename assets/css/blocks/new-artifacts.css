@@ -65,3 +65,12 @@
     align-items: center;
     gap: 8px;
 }
+
+.new-artifacts__link:focus-visible {
+    outline:  1px solid var(--green-focus);
+    outline-offset: 3px;
+}
+
+.new-artifacts__link:hover {
+    color:  var(--green-activeclick);
+}

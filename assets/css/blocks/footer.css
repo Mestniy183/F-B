@@ -18,6 +18,19 @@
 
 .footer__img {}
 
+.footer__link:focus-visible {
+    outline: 1px solid var(--green-focus);
+    outline-offset: 3px;
+}
+
+.footer__link:hover path {
+    fill: var(--primary-green);
+}
+
+.footer__link:active path {
+    fill: var(--green-activeclick);
+}
+
 .footer__bottom {
     background-color: #1D2F30;
     padding: 3px 0;
@@ -29,5 +42,4 @@
     font-weight: 400;
     font-size: 12px;
     color: var(--grey);
-    
 }

@@ -19,7 +19,7 @@
     color: var(--white);
     font-family: var(--second-family);
     margin-bottom: 16px;
-    
+
 }
 
 .help-project__text {
@@ -46,6 +46,45 @@
     border: none;
 }
 
+.help-project__input:focus {
+    outline: 1px solid var(--green-focus);
+    outline-offset: 3px;
+}
+
+.help-project__input:hover {
+    background: var(--grey)
+}
+
+.help-project__input:hover::placeholder {
+    color: var(--white);
+}
+
+.help-project__input:active {
+    background: var(--grey);
+
+}
+
+.help-project__input:active::placeholder {
+    color: var(--background-shade);
+}
+
+.help-project__input:user-invalid {
+    outline: 1px solid red;
+    outline-offset: 3px;
+}
+
+.error {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--red);
+    display: none;
+    transform: translateY(-10px);
+}
+
+.help-project__label:has(.help-project__input:user-invalid) .error{
+    display: block;
+}
+
 .help-project__btn {
     padding: 12px 26px;
     background: var(--primary-green);
@@ -53,4 +92,17 @@
     font-size: 16px;
     color: var(--background-shade);
     font-family: var(--font-family);
+}
+
+.help-project__btn:focus-visible {
+    background: var(--primary-green);
+    outline: 1px solid var(--background-shade);
+}
+
+.help-project__btn:hover {
+    background: var(--green-hover);
+}
+
+.help-project__btn:active {
+    background: var(--green-activeclick);
 }

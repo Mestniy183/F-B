@@ -26,8 +26,7 @@
 }
 
 .artifacts {
-    background-color: var(--background);
-    padding: 60px 0;
+    padding: 60px 0 57px;
 }
 
 .artifacts__items {
@@ -37,7 +36,6 @@
 .artifacts__item {
     display: flex;
     flex-direction: column;
-    border: 1px solid var(--background-shade);
 }
 
 .artifacts__item-box {
@@ -65,15 +63,13 @@
 }
 
 
-
-.artifacts__img {}
-
 .artifacts__content {
     padding: 16px 16px 24px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border: 1px solid var(--background-shade);
 }
 
 .artifacts__item-title {

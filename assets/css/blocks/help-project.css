@@ -29,6 +29,7 @@
     color: var(--white);
     font-family: var(--font-family);
     margin-bottom: 24px;
+    max-width: 835px;
 }
 
 .help-project__form {
@@ -40,7 +41,7 @@
 }
 
 .help-project__input {
-    padding: 10.5px 16px;
+    padding: 13.5px 16px;
     background: var(--white);
     width: 100%;
     border: none;
@@ -83,6 +84,10 @@
 
 .help-project__label:has(.help-project__input:user-invalid) .error{
     display: block;
+}
+
+.help-project__label {
+    width: 100%;
 }
 
 .help-project__btn {

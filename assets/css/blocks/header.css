@@ -1,6 +1,4 @@
-.header {
-    background: var(--background);
-}
+
 
 .header__wrapper {
     display: flex;
@@ -75,7 +73,5 @@
 }
 
 @media(max-width:1024px) {
-    .header__nav {
-        display: none;
-    }
+   
 }

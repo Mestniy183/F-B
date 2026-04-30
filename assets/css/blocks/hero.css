@@ -1,5 +1,5 @@
 .hero {
-    padding: 115px 0 118px;
+    padding: clamp(4.3125rem, 3.4911rem + 4.1071vw, 7.1875rem) 0 clamp(1.875rem, 0.3036rem + 7.8571vw, 7.375rem);
     background-image: url('../../images/hero/hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -17,7 +17,7 @@
 
 .hero__title {
     font-weight: 700;
-    font-size: 60px;
+    font-size: clamp(3rem, 2.7857rem + 1.0714vw, 3.75rem);
     line-height: 100%;
     color: var(--white);
     margin-bottom: 22px;
@@ -60,4 +60,10 @@
 
 .hero__link:active {
     color: var(--green-activeclick);
+}
+
+@media(max-width: 768px) {
+    .hero__text {
+        display: none;
+    }
 }

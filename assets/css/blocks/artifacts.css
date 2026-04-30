@@ -124,14 +124,30 @@
 }
 
 .swiper-btn:focus-visible {
-    outline:  1px solid var(--green-focus);
+    outline: 1px solid var(--green-focus);
     outline-offset: 3px;
 }
 
 .swiper-btn:hover path {
-fill:var(--primary-green);
+    fill: var(--primary-green);
 }
 
 .swiper-btn:active path {
-    fill:var(--green-activeclick);
+    fill: var(--green-activeclick);
+}
+
+@media(max-width:768px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
     }
+    .swiper-pagination-bullet-active {
+        background: var(--primary-green);
+       
+    }
+    .swiper-pagination-bullet {
+        margin-right: 20px !important;
+    }
+
+    
+}

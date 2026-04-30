@@ -1,4 +1,6 @@
-
+.header {
+    position: relative;
+}
 
 .header__wrapper {
     display: flex;
@@ -22,7 +24,7 @@
 
 .header__items {
     display: flex;
-    gap: 64px;
+    gap: clamp(2rem, -2.9231rem + 7.6923vw, 4rem);
 }
 
 .header__link {
@@ -73,5 +75,21 @@
 }
 
 @media(max-width:1024px) {
-   
+    .header__nav {
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        z-index: 5;
+    }
+}
+
+@media(max-width: 768px) {
+    .header__nav {
+        overflow: auto;
+        width: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
+        justify-content: start;
+    }
+
 }

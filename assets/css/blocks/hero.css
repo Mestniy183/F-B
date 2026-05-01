@@ -66,4 +66,8 @@
     .hero__text {
         display: none;
     }
+
+    .hero__link {
+        margin-top: 12px;
+    }
 }

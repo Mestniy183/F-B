@@ -26,7 +26,7 @@
 }
 
 .artifacts {
-    padding: 60px 0 57px;
+    padding: 60px 0 clamp(2.9375rem, 2.7589rem + 0.8929vw, 3.5625rem);
 }
 
 .artifacts__items {
@@ -147,7 +147,12 @@
     }
     .swiper-pagination-bullet {
         margin-right: 20px !important;
+        width: 10px;
+        height: 10px;
     }
 
-    
+    .swiper {
+        margin-bottom: 0;
+    }
+
 }
